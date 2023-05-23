@@ -20,9 +20,9 @@ const Next = () => {
         data?.products?.slice(10,19).map((item, index)=>{
           return(
             <div key={index}>
-              <h1>{item.id}</h1>
-              <h1>{item.title}</h1>
-              <h1>{item.description}</h1>
+              <h1>id -{item.id}</h1>
+              <h1>title -{item.title}</h1>
+              <h1>description-  {item.description}</h1>
             </div>
           )
         })
