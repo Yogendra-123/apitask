@@ -25,7 +25,10 @@ const nextPage = () =>{
             <div key={index}>
               <h1>id -{item.id}</h1>
               <h1>title -{item.title}</h1>
+              <h3>price - {item.price}</h3>
               <p>description- {item.description}</p>
+              <img src={item.images[0]} alt=' not found'/>
+              <hr/>
             </div>
           )
         })
